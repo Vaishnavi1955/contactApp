@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+  --primary-color: #6366f1;
+  --danger-color: #ef4444;
+  --bg-light: #ffffff;
+  --bg-dark: #f3f4f6;
+  --text-dark: #111827;
+  --text-light: #6b7280;
+  --card-shadow: rgba(0, 0, 0, 0.1);
+  --radius: 12px;
+  --font: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  background: linear-gradient(to right, #a18cd1, #fbc2eb);
+  color: var(--text-dark);
+  min-height: 100vh;
+}
+
+/* ---------------- Header ---------------- */
+.ui.header {
+  background-color: #fff;
+  padding: 1.2rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  box-shadow: 0 2px 10px var(--card-shadow);
+  border-radius: 0 0 var(--radius) var(--radius);
+}
+
+/* ---------------- Contact List ---------------- */
+.ui.celled.list {
+  background: var(--bg-light);
+  padding: 2rem;
+  border-radius: var(--radius);
+  box-shadow: 0 8px 20px var(--card-shadow);
+  margin-top: 2rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.item img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.item .content {
+  margin-left: 1rem;
+}
+
+.item .header {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.item .description {
+  color: var(--text-light);
+}
+
+.item i.icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.item i.icon:hover {
+  transform: scale(1.1);
+}
+
+/* ---------------- Forms (Add/Edit) ---------------- */
+.ui.main {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  max-width: 500px;
+  margin: 3rem auto;
+  border-radius: var(--radius);
+  box-shadow: 0 12px 24px var(--card-shadow);
+}
+
+.ui.form label {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+.ui.form input {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.25rem;
+  border-radius: var(--radius);
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.ui.form input:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 5px rgba(99, 102, 241, 0.4);
+  outline: none;
+}
+
+.ui.button.blue {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  padding: 0.7rem 1.2rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.ui.button.red {
+  background-color: var(--danger-color);
+  color: white;
+  font-weight: 600;
+}
+
+.ui.button.grey {
+  background-color: #9ca3af;
+  color: white;
+  font-weight: 600;
+}
+
+.ui.button:hover {
+  opacity: 0.95;
+}
+
+/* ---------------- Contact Details ---------------- */
+.ui.card.centered {
+  background-color: #fff;
+  border-radius: var(--radius);
+  padding: 1rem;
+  box-shadow: 0 8px 16px var(--card-shadow);
+  text-align: center;
+  max-width: 350px;
+  margin: 2rem auto;
+}
+
+.ui.card .image img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+/* ---------------- Responsive ---------------- */
+@media (max-width: 600px) {
+  .ui.main,
+  .ui.card.centered,
+  .ui.celled.list {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  .item .content {
+    margin-left: 0.5rem;
+  }
+
+  .ui.header {
+    font-size: 1.4rem;
+  }
+}

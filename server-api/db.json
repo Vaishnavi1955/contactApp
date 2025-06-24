@@ -1,0 +1,44 @@
+{
+  "contacts": [
+    {
+      "id": "6a65bc58-5b45-46a4-9742-632fd48f4d38",
+      "name": "Vaishnavi Phad",
+      "email": "vphad1955@gmail.com"
+    },
+    {
+      "id": "33500888-6658-4cdd-8afe-451ccc0467c2",
+      "name": "Avnii G",
+      "email": "a@gmail.com"
+    },
+    {
+      "id": "f195c20e-67a8-404e-8040-ec39d85f6a15",
+      "name": "Krishna",
+      "email": "k@gmail.com"
+    },
+    {
+      "id": "d8d2c8fb-cebf-4988-9752-cccf0a0eacc8",
+      "name": "Vaibhav Phad",
+      "email": "vp@gmail.com"
+    },
+    {
+      "id": "dfc12c3b-ae84-4382-a091-2c5a77a6414e",
+      "name": "Ishwari Lad",
+      "email": "ishu@gmail.com"
+    },
+    {
+      "id": "c8129ce8-f448-44a4-b5c0-d8ad5a5dc96c",
+      "name": "Arihant Phad",
+      "email": "ap@gmail.com"
+    },
+    {
+      "id": "e676568d-0edf-4408-bf8f-2fce855f998b",
+      "name": "Avnii G",
+      "email": "m@gmail.com"
+    },
+    {
+      "id": "9ea4c83c-5a1a-499c-8efc-db22b3610124",
+      "name": "Ayush Lad",
+      "email": "al@gmail.com"
+    }
+  ]
+}
